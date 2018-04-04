@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(110, 155, 130, 0.5);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.picture {
+  background-image: url(../images/dingo.jpg);
+  border: 10px solid rgba(255, 255, 255, 1);
+  position: relative;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-bottom: 750px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  z-index: -1;
+  font-weight: bold;
+  font-size: 4em;
+  letter-spacing: 1.0rem;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+background-image {
+  border: 10px solid rgba(255, 255, 255, 1);
+}
