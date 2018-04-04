@@ -9,21 +9,29 @@ body {
 }
 
 .picture {
-  background-image: url(../images/dingo.jpg);
+  /* Picture */
+  background-image: url(../images/DSC_0124.jpg);
   border: 10px solid rgba(255, 255, 255, 1);
-  position: relative;
-  background-size: auto;
+  background-size: cover;
+  border-width: cover;
+  border-height: cover;
   background-repeat: no-repeat;
-  padding-bottom: 750px;
+  background-position: center;
+  padding: 32vw;
   margin-top: 75px;
-  margin-bottom: 75px;
+  margin-left: 5vw;
+  margin-right: 5vw;
   z-index: -1;
+}
+
+.titleName {
+  /* Font */
   font-weight: bold;
-  font-size: 4em;
+  font-size: 4vw;
   letter-spacing: 1.0rem;
   color: rgb(250, 250, 250);
+  text-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.5);
   text-align: center;
-  text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 background-image {
