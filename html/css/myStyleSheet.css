@@ -119,6 +119,10 @@ h1 {
   text-align: right;
 }
 
+{
+  font-size: 23px;
+}
+
 .leftHeader:hover {
   text-decoration: underline;
   font-weight: bold;
