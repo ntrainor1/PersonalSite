@@ -3,6 +3,7 @@ body {
 }
 
 .navbar {
+  /* Navigation Bar */
   position: fixed;
   top: 0;
   width: 100%;
@@ -21,28 +22,32 @@ body {
   image-resolution: from-image;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 32vw;
+  padding-top: 22vw;
+  padding-bottom: 22vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
   z-index: -1;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .titleName {
   /* Font */
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 3vw;
   letter-spacing: 1.0rem;
   color: rgb(250, 250, 250);
   text-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.aboutSection {
+#aboutSection {
   background-color: white;
   font-weight: bold;
   font-size: 2vw;
   color: rgb(110, 135, 130);
   text-align: center;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  padding: 3vw;
 }
 
 h1 {
@@ -53,35 +58,30 @@ h1 {
   text-align: center;
 }
 
-.projectSection {
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+#projectSection {
+  padding: 3vw;
 }
 
-.projectSection > h1 {
-  font-weight: bold;
-  font-size: 3vw;
-  letter-spacing: 2vw;
+#projectSection > h1 {
   color: rgb(250, 250, 250);
-  text-align: center;
 }
 
 .right {
-  font-size: 1.5vw;
+  font-size: 1vw;
   color: rgb(250, 250, 250);
   text-align: right;
 }
 
 .left {
-  font-size: 1.5vw;
+  font-size: 1vw;
   color: rgb(250, 250, 250);
   text-align: left;
 }
 
 .oracleCertified {
   display: block;
-  width:15vw;
-  height:15vw;
+  width:8vw;
+  height:8vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -92,20 +92,20 @@ h1 {
 
 .logo {
   display: block;
-  width:10vw;
-  height:10vw;
+  width:5vw;
+  height:5vw;
 }
 
 .CSSlogo {
   display: block;
-  width:7.5vw;
-  height:10vw;
+  width:3vw;
+  height:5vw;
 }
 
 .rightImage {
   display: block;
-  width:20vw;
-  height:20vw;
+  width:10vw;
+  height:10vw;
   margin-left: auto;
   margin-right: 0px;
   border: 10px solid rgba(255, 255, 255, 1);
@@ -114,8 +114,8 @@ h1 {
 
 .leftImage {
   display: block;
-  width:20vw;
-  height:20vw;
+  width:10vw;
+  height:10vw;
   margin-left: 0px;
   margin-right: auto;
   border: 10px solid rgba(255, 255, 255, 1);
@@ -123,7 +123,7 @@ h1 {
 }
 
 .leftHeader {
-  font-size: 3vw;
+  font-size: 1.5vw;
   text-decoration: none;
   font-weight: bold;
   color: rgb(250, 250, 250);
@@ -131,7 +131,7 @@ h1 {
 }
 
 .rightHeader {
-  font-size: 3vw;
+  font-size: 1.5vw;
   text-decoration: none;
   font-weight: bold;
   color: rgb(250, 250, 250);
@@ -154,18 +154,18 @@ background-image {
   border: 10px solid rgba(255, 255, 255, 1);
 }
 
-.contactSection {
+#contactSection {
   background-color: white;
   font-weight: bold;
   font-size: 2vw;
-  letter-spacing: 1vw;
+  letter-spacing: 0.5vw;
   color: rgb(110, 135, 130);
   text-align: center;
-  padding-top: 3vw;
+  padding-top: 1vw;
   padding-bottom: 3vw;
 }
 
-.contactHover:hover {
+#contactHover:hover {
   text-decoration: none;
   font-weight: bold;
 }
