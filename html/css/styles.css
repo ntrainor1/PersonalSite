@@ -110,11 +110,16 @@ h1 {
   height:5vw;
 }
 
-
 #CSSlogo {
   display: block;
   width:3.5vw;
   height:5vw;
+}
+
+#RESTlogo {
+  display: block;
+  width:4vw;
+  height:4vw;
 }
 
 .rightImage {
