@@ -98,6 +98,12 @@ h1 {
   height:5vw;
 }
 
+#AWSlogo {
+  display: block;
+  width:7vw;
+  height:5vw;
+}
+
 #Javalogo {
   display: block;
   width:3vw;
