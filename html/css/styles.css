@@ -100,11 +100,11 @@ h1 {
 
 #AWSlogo {
   display: block;
-  width:7vw;
+  width:9vw;
   height:5vw;
 }
 
-#Javalogo {
+#Javalogo, #JPAlogo {
   display: block;
   width:3vw;
   height:5vw;
