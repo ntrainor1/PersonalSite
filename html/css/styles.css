@@ -10,50 +10,38 @@ body {
 }
 
 .picture {
-  /* Picture */
-  background-image: url(../images/DSC_0124.jpg);
-  display: block;
-  margin-top: 75px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 10px solid rgba(247, 247, 247, 1);
-  background-size: cover;
-  border-width: cover;
-  image-resolution: from-image;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 22vw;
-  padding-bottom: 22vw;
-  padding-left: 12vw;
-  padding-right: 12vw;
-  z-index: -1;
-  margin-left: 15vw;
-  margin-right: 15vw;
+    /* Picture */
+    display: block;
+    margin-top: 75px;
+    width: 42vw;
+    height: 42vw;
+    border: 10px solid #f8f9fa;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titleName {
-  /* Font */
-  font-weight: bold;
-  font-size: 4vw;
-  letter-spacing: 1.0rem;
-  color: rgb(248, 248, 248);
-  text-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.5);
-  text-align: center;
+    /* Font */
+    font-weight: bold;
+    font-size: 5vw;
+    letter-spacing: 1.0rem;
+    color: rgb(248, 248, 248);
+    text-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 #aboutSection {
-  background-color: rgb(248, 248, 248);
+  background-color: #f8f9fa;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 15px;
   color: rgb(110, 135, 130);
   text-align: center;
   padding: 3vw;
-  padding-top: 60px;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 5vw;
   letter-spacing: 2vw;
   color: rgb(110, 135, 130);
   text-align: center;
@@ -61,23 +49,22 @@ h1 {
 
 #projectSection {
   padding: 3vw;
-  padding-top: 60px;
 }
 
 #projectSection > h1 {
-  color: rgb(248, 248, 248);
+  color: #f8f9fa;
 }
 
 .right {
-  font-size: 1.5vw;
-  color: rgb(248, 248, 248);
+  font-size: 15px;
+  color: #f8f9fa;
   text-align: right;
 }
 
 .left {
-  font-size: 1.5vw;
-  color: rgb(248, 248, 248);
-  text-align: left;
+    font-size: 15px;
+    color: #f8f9fa;
+    text-align: left;
 }
 
 .oracleCertified {
@@ -123,66 +110,66 @@ h1 {
 }
 
 .rightImage {
-  display: block;
-  width:15vw;
-  height:15vw;
-  margin-left: auto;
-  margin-right: 0px;
-  border: 5px solid rgba(247, 247, 247, 1);
-  text-align: right;
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: 0px;
+    border: 5px solid #f8f9fa;
+    text-align: right;
 }
 
 .leftImage {
-  display: block;
-  width:15vw;
-  height:15vw;
-  margin-left: 0px;
-  margin-right: auto;
-  border: 5px solid rgba(247, 247, 247, 1);
-  text-align: left;
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: 0px;
+    margin-right: auto;
+    border: 5px solid #f8f9fa;
+    text-align: left;
 }
 
 .leftHeader {
-  font-size: 2vw;
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(248, 248, 248);
-  text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f8f9fa;
+    text-align: left;
 }
 
 .rightHeader {
-  font-size: 2vw;
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(248, 248, 248);
-  text-align: right;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f8f9fa;
+    text-align: right;
 }
 
 .leftHeader:hover {
   text-decoration: underline;
   font-weight: bold;
-  color: rgb(248, 248, 248);
+  color: #f8f9fa;
 }
 
 .rightHeader:hover {
   text-decoration: underline;
   font-weight: bold;
-  color: rgb(248, 248, 248);
+  color: #f8f9fa;
 }
 
 background-image {
-  border: 10px solid rgba(247, 247, 247, 1);
+  border: 10px solid #f8f9fa;
 }
 
 #contactSection {
-  background-color: rgb(248, 248, 248);
-  font-weight: bold;
-  font-size: 2vw;
-  letter-spacing: 0.5vw;
-  color: rgb(110, 135, 130);
-  text-align: center;
-  padding-top: 1vw;
-  padding-bottom: 3vw;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5vw;
+    color: rgb(110, 135, 130);
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
 }
 
 a:hover {
